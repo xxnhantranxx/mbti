@@ -23,3 +23,5 @@ require_once __DIR__ . '/components/BlockHead.php';
 require_once __DIR__ . '/components/MenuFooter.php';
 
 require_once __DIR__ . '/components/LadipageIntro.php';
+
+require_once __DIR__ . '/components/VideoLadipage.php';

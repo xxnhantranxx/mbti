@@ -31,6 +31,8 @@
 		width: 315px;
 		bottom: 0;
 	}
+
+  /* Ladipage */
   .RemovePaddingBottom{
     padding-bottom: 0 !important;
   }
