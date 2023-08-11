@@ -1,0 +1,46 @@
+.absolute-footer{
+	display: none;
+}
+.widget-footer .menu-item a{
+	padding: 0;
+    min-height: 28px;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	color: #BBAFB3;
+	position: relative;
+	padding-left: 15px;
+}
+.sft_r1_c1 .widget-footer .menu-item a{
+	pointer-events:none;
+}
+.widget-footer .menu-item a::before{
+	content: "";
+    width: 5px;
+    height: 5px;
+    background: #BBAFB3;
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    border-radius: 5px;
+    z-index: 1;
+}
+.ux-menu-link--active .ux-menu-link__link, .ux-menu-link:hover .ux-menu-link__link{
+	color: var(--Mau_4);
+}
+.logo-footer .ux-logo-link{
+	padding:0 !important;
+	margin-bottom: 12px;
+}
+.top-footer{
+	border-bottom: 1px solid #BBAFB3;
+	margin-bottom: 20px;
+}
+.site-name-footer, .copyright{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.02em;
+	color: #BBAFB3;
+}
